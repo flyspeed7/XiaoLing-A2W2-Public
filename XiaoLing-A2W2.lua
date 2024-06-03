@@ -1,8 +1,8 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "小凌脚本-Beta",
-    Text = "Longing....反挂机已开启",
+    Title = "小凌脚本-1.5",
+    Text = "UIing....反挂机已开启",
     Duration = 5, 
 })
 print("反挂机")
@@ -13,9 +13,9 @@ print("反挂机")
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
 local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/SePpsSPZ'))()
-local Window = OrionLib:MakeWindow({Name = "小凌脚本-Beta", HidePremium = false, SaveConfig = true,IntroText = "你好！", ConfigFolder = "欢迎使用"})
+local Window = OrionLib:MakeWindow({Name = "小凌脚本-1.5-云端更新版ℒฺℴฺνℯ̶ฺ", HidePremium = false, SaveConfig = true,IntroText = "欢迎执行小凌脚本 爱你喵~", ConfigFolder = "欢迎使用"})
 local about = Window:MakeTab({
-    Name = "小凌ExecuteV1",
+    Name = "信息",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -30,10 +30,10 @@ local Tab = Window:MakeTab({
   })
   
  Tab:AddButton({
-	Name = "K1S脚本",
+	Name = "落叶中心",
 	Callback = function()
-getgenv().LS="k1s"
-loadstring(game:HttpGet("https://pastebin.com/raw/DCGzQ6iY"))
+getgenv().LS="落叶中心"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/krlpl/Deciduous-center-LS/main/%E8%90%BD%E5%8F%B6%E4%B8%AD%E5%BF%83%E6%B7%B7%E6%B7%86.txt"))()
 end
 })
 
@@ -1173,3 +1173,150 @@ Tab:AddButton({
     
   end
 })
+Tab:AddButton({
+  Name = "doors汉化",
+  Callback = function ()
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "收养我吧",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lf4d7/daphie/main/ame.lua"))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "doors中转站(白名单和key)",
+  Callback = function ()
+    loadstring(game:HttpGet("https://shz.al/ySeKWSdaes8TiJbZTc2XzDiS"))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "小云doors",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/EntitySpawner/main/doors(orionlib).lua"))()
+  end
+})
+Tab:AddButton({
+  Name = "林脚本",
+  Callback = function ()
+    lin = "作者林"lin ="林QQ群 747623342"loadstring(game:HttpGet("https://raw.githubusercontent.com/linnblin/lin/main/lin"))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "HB中心",
+  Callback = function ()
+    loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,82,66,119,107,107,117,55,49})end)())))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "HB中心-Beta",
+  Callback = function ()
+    loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,86,83,89,71,99,122,78,115})end)())))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "导管中心",
+  Callback = function ()
+ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\117\115\101\114\97\110\101\119\114\102\102\47\114\111\98\108\111\120\45\47\109\97\105\110\47\37\69\54\37\57\68\37\65\49\37\69\54\37\65\67\37\66\69\37\69\53\37\56\68\37\56\70\37\69\56\37\65\69\37\65\69\34\41\41\40\41\10")()
+    
+  end
+})
+Tab:AddButton({
+  Name = "剑客v4",
+  Callback = function ()
+    jianke_V4 = "作者_初夏"jianke__V4 = "作者QQ1412152634"jianke___V4 = "剑客QQ群347724155"loadstring(game:HttpGet(('https://shz.al/~JianKeV4')))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "脚本中心XC",
+  Callback = function ()
+    loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\101\109\120\72\119\65\49"))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "DOORS后门",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/mspaint/backdoor.lua"))()
+  end
+})
+Tab:AddButton({
+  Name = "微山doors1.0.4(可用)",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/weishanteam/Script/main/doors/WeiShan_Loader.lua"))()
+  end
+})
+Tab:AddButton({
+  Name = "IY5.5.9(指令挂)",
+  Callback = function ()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "林霓脚本",
+  Callback = function ()
+    loadstring(game:HttpGet("https://shz.al/~LinnifreeScript"))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "脚本中心3",
+  Callback = function ()
+    loadstring(game:HttpGet("https://pastebin.com/raw/XhQpcE5m"))()
+    
+  end
+})
+Tab:AddButton({
+  Name = "XSC超牛逼脚本",
+  Callback = function ()
+    getgenv().XC="作者XC"loadstring(game:HttpGet("https://pastebin.com/raw/PAFzYx0F"))()
+  end
+})
+Tab:AddButton({
+  Name = "刺客脚本破解",
+  Callback = function ()
+    long = "刺客破解版"loadstring(game:HttpGet(('https://raw.githubusercontent.com/XT-CN/UwU/main/Cikefree')))()
+  end
+})
+Tab:AddButton({
+  Name = "SF脚本",
+  Callback = function ()
+    Cike_V2 = "作者_神罚"SheFa = "刺客群637340150"loadstring(game:HttpGet(('https://raw.githubusercontent.com/WDQi/SF/main/%E7%9C%8B%E4%BD%A0M.txt')))()
+  end
+})
+Tab:AddButton({
+  Name = "静新脚本修复",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zuohongjian/bjb/main/jingxinjiaoben"))()
+  end
+})
+Tab:AddButton({
+  Name = "星云",
+  Callback = function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/%E5%85%B6%E4%BB%96%E5%9B%BD%E5%86%85%E8%84%9A%E6%9C%AC/%E6%98%9F%E7%A9%BA%E8%84%9A%E6%9C%AC/MoonSecV3.lua"))()
+  end
+})
+Tab:AddButton({
+  Name = "fofo",
+  Callback = function ()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\102\117\122\101\110\97\110\48\48\47\102\111\102\111\108\105\110\110\105\47\109\97\105\110\47\102\111\102\111\37\69\70\37\66\67\37\56\56\37\69\57\37\57\67\37\57\54\37\69\54\37\66\65\37\66\65\85\73\37\69\70\37\66\67\37\56\57\34\41\41\40\41")()
+  end
+})
+Tab:AddButton({
+  Name = "踏空脚本",
+  Callback = function ()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
+  end
+})
+Tab:AddParagraph("以后就更新1.4(云端更新学会了)")
+Tab:AddParagraph("感谢小云教我云端更新mua~")
+Tab:AddParagraph("你猜 喵~ 别圈钱 懂？")
