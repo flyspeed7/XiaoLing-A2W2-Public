@@ -1,7 +1,7 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "小凌脚本-1.5",
+    Title = "小凌脚本-1该脚本已停止运行，请使用小凌中心！",
     Text = "UIing....反挂机已开启",
     Duration = 5, 
 })
@@ -13,13 +13,13 @@ print("反挂机")
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
 local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/SePpsSPZ'))()
-local Window = OrionLib:MakeWindow({Name = "小凌脚本-1.5-云端更新版", HidePremium = false, SaveConfig = true,IntroText = "欢迎执行小凌脚本 爱你喵~", ConfigFolder = "欢迎使用"})
+local Window = OrionLib:MakeWindow({Name = "小凌脚本-停止运行", HidePremium = false, SaveConfig = true,IntroText = "欢迎执行小..", ConfigFolder = "欢迎使用"})
 local about = Window:MakeTab({
-    Name = "信息",
+    Name = "停止运行",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-
+Tab:AddParagraph("制作：小凌")
 about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
 about:AddParagraph("您的注入器:"," "..identifyexecutor().."")
 about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
