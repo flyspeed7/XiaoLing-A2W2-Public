@@ -1320,7 +1320,6 @@ Tab:AddButton({
 Tab:AddParagraph("以后就更新1.4(云端更新学会了)")
 Tab:AddParagraph("感谢小云教我云端更新mua~")
 Tab:AddParagraph("你猜 喵~ 别圈钱 懂？")
-
 Tab:AddButton({
   Name = "MSDOORS",
   Callback = function ()
